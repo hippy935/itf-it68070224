@@ -1,0 +1,47 @@
+nav {
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    display: grid;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically */
+    height: 100vh; /* Full viewport height */
+    border: 1px solid black;
+}
+
+img {
+    opacity: 100%;
+}
+
+div2 {
+    display: grid;
+    gap: 10px;
+    margin-top: 20px;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50;
+}
+
+div3 {
+    display: grid;
+    font-size: xx-large;
+    justify-content: left;
+    align-items: center;
+}
+
+button {
+    color:red;
+    background-color: black;
+}
+
+cl {
+    color: white;
+    font-size: 50px ;
+}
